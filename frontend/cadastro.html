@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <link rel="stylesheet" href="style.css">
+
+<header>
+<img class="logo" src="imagens/logotipo.png" alt="" width="70px" height="80px">
+<h2>Unidade de Preparação 
+    <br>Militar de Itajubá</h2>
+<nav class="teste">
+<a class="teste" href="index.html">Inicio</a>
+<a class="teste" href="galeria.html">Galeria</a>
+<a class="teste" href="projetos.html">Projetos</a>
+<a class="teste" href="contato.html">Contato</a>
+<a class="teste" href="cadastro.html">Cadastro</a>
+<a href="login.html" class="icone_admin">
+    <button class="acesso_admin" type="submit">
+        <img src="imagens/ícone_engrenagem.png" alt="" width="50px" height="50px">
+    </button>
+</a>
+
+<a href="https://www.instagram.com/upi01oficial?igsh=MTJoZjRzMmJ1aml2dQ==" target="_blank">
+    <button class="instagram" type="submit" >
+        <img src="imagens/logo_instagram.jpg" alt="" width="30px" height="30px">
+    </button>
+</a>
+
+<a href="https://share.google/FvcACXkdLjaxOkmfY" target="_blank">
+    <button class="facebook" type="submit">
+        <img src="imagens/logo_facebook.png" alt="" width="30px" height="30px">
+    </button>
+</a>
+</nav>
+    </header>
+
+
+
+<section id="cadastro1">
+<div id="cadastro">
+
+<img id="imagen2" src="imagens/logo cadastro.png" alt="login" width="300px" height="300px">
+
+<form id="formcadastro" onsubmit="cadastrar(event)">
+
+<label class="letra">Nome:</label>
+
+<input
+    type="text"
+    id="nome"
+    name="nome"
+    class="estilizacao"
+    maxlength="50"
+    required
+>
+
+<br><br>
+
+<label class="letra">Email:</label>
+
+<input
+    type="email"
+    id="email"
+    name="email"
+    class="estilizacao"
+    maxlength="50"
+    required
+>
+
+<br><br>
+
+<label class="letra">Telefone:</label>
+
+<input
+    type="tel"
+    id="telefone"
+    name="telefone"
+    class="estilizacao"
+    maxlength="11"
+    placeholder="(00) 00000-0000"
+    required
+>
+
+
+<br><br>
+
+<button
+    type="submit"
+    id="botaocadastro"
+>
+    Cadastre-se
+</button>
+
+</form>
+</div>
+
+</section>
+
+<footer>&copy; 2026 UPI Itajubá – Todos os direitos reservados.</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

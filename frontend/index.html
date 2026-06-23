@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+<img class="logo" src="imagens/logotipo.png" alt="" width="70px" height="80px">
+<h2>Unidade de Preparação 
+    <br>Militar de Itajubá</h2>
+<nav class="teste">
+<a class="teste" href="index.html">Inicio</a>
+<a class="teste" href="galeria.html">Galeria</a>
+<a class="teste" href="projetos.html">Projetos</a>
+<a class="teste" href="contato.html">Contato</a>
+<a class="teste" href="cadastro.html">Cadastro</a>
+<a href="https://www.instagram.com/upi01oficial?igsh=MTJoZjRzMmJ1aml2dQ==" target="_blank"><button class="instagram" type="submit" ><img src="imagens/logo_instagram.jpg" alt="" width="30px" height="30px" id="logoI"></button></a>
+<a href="https://share.google/FvcACXkdLjaxOkmfY" target="_blank"><button class="facebook" type="submit"><img src="imagens/logo_facebook.png" alt="" width="30px" height="30px" id="logoF"></button></a>
+</nav>
+    </header>
+
+    <br>
+
+<section id="fotos_cabeçalho">
+    <div class="slider">
+    <img id="imagem" src="fotos/inicio1.png" alt="" width="100%" height="650px" >
+    <button onclick="imagemAnterior()" class="imagens" id="esquerda" type="submit"><</button>
+    <button onclick="imagemProxima()" class="imagens" id="direita" type="submit">></button>    
+    </div>
+</section>    
+
+<section>
+    <h2 class="h2">Sobre Nós:</h2>
+    <div id="sobre_nós">
+        <p> Somos uma escola preparatória militar em Itajubá dedicada à formação de alunos disciplinados,
+        focados e preparados para os principais concursos militares. Unimos ensino de qualidade,
+        orientação especializada e valores como respeito, 
+        ética e liderança.
+        Nosso compromisso vai além da aprovação: formamos jovens responsáveis e prontos para os desafios da carreira e da vida.
+        </p>
+    </div>
+</section>
+
+<section class="noticias-section">
+
+  <h1><br>📰 Últimas Notícias</h1>
+
+  <div id="noticias"></div>
+
+</section>
+
+
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+
+<df-messenger
+  intent="WELCOME"
+  chat-title="UPIBot"
+  agent-id="62f47409-93e7-47e4-a44f-3d1f3c6c35ea"
+  language-code="pt-br"
+></df-messenger>
+
+<footer>&copy; 2026 UPI Itajubá – Todos os direitos reservados.</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
